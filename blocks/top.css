@@ -1,0 +1,21 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top__child {
+  margin: 0 0 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .top__child {
+    margin: 0 0 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .top__child {
+    margin: 0 0 64px;
+  }
+}

@@ -1,0 +1,26 @@
+.bottom__child {
+  margin: 0 0 92px;
+  padding-left: 148px;
+  box-sizing: content-box;
+}
+
+@media screen and (max-width: 768px) {
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom__child {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bottom__child {
+    padding: 0 16px;
+    margin: 0 0 64px;
+  }
+}

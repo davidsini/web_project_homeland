@@ -11,12 +11,6 @@ header {
   margin: 34px 0 91.06px;
 }
 
-.branding__logo {
-  margin: 0 0 22px 0;
-  width: 32px;
-  height: 32px;
-}
-
 @media screen and (max-width: 768px) {
   .header__elements {
     margin: 30px 0 90px;
@@ -30,15 +24,5 @@ header {
     align-items: center;
     margin: 20px 0 50px;
     max-width: 188px;
-  }
-
-  .branding__logo {
-    margin: 0 0 16.53px 0;
-    width: 23.69px;
-    height: 23.77px;
-  }
-
-  .branding__subtitle {
-    width: 100%;
   }
 }

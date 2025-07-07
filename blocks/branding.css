@@ -1,0 +1,17 @@
+.branding__logo {
+  margin: 0 0 22px 0;
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 320px) {
+  .branding__logo {
+    margin: 0 0 16.53px 0;
+    width: 23.69px;
+    height: 23.77px;
+  }
+
+  .branding__subtitle {
+    width: 100%;
+  }
+}
