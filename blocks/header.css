@@ -13,7 +13,8 @@ header {
 
 .branding__logo {
   margin: 0 0 22px 0;
-  size: 32px 32px;
+  width: 32px;
+  height: 32px;
 }
 
 @media screen and (max-width: 768px) {
@@ -33,7 +34,8 @@ header {
 
   .branding__logo {
     margin: 0 0 16.53px 0;
-    size: 23.69px 23.77px;
+    width: 23.69px;
+    height: 23.77px;
   }
 
   .branding__subtitle {
