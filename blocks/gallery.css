@@ -1,0 +1,12 @@
+.gallery {
+  width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.gallery__image {
+  width: 100%;
+  object-fit: cover; /* Opcional: recorta para que se vea bien en la cuadrícula */
+}

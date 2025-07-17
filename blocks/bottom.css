@@ -1,6 +1,9 @@
+.bottom {
+  align-self: flex-start;
+}
+
 .bottom__child {
-  margin: 0 0 92px;
-  /*padding-left: 148px;*/
+  margin: 0 0 118px;
   box-sizing: content-box;
 }
 
