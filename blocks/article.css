@@ -5,7 +5,6 @@
 }
 
 .article__post {
-  max-width: 100%;
   display: grid;
   box-sizing: border-box;
   grid-template-columns: 1fr 1fr;
@@ -13,20 +12,15 @@
 }
 
 .article__city-title {
-  width: 460px;
-  height: 152px;
-
-  font-family: "Inter";
-  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   font-weight: 700;
   font-size: 72px;
   line-height: 106%;
-  color: #ffffff;
 }
 
 .article__artists-title {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -38,13 +32,9 @@
 }
 
 .article__artist-name {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 122%;
-
-  color: #ffffff;
 }
 
 .article__artists-container {
@@ -101,14 +91,31 @@
 
 .article__city-description {
   margin-bottom: 25px;
-  font-family: "Inter";
-  font-style: normal;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-
-  color: #ffffff;
 }
 
-.article__container {
+@media screen and (max-width: 768px) {
+  .article {
+    max-width: 720px;
+  }
+
+  .article__post {
+    gap: 48px 28px;
+  }
+
+  .article__city-title {
+    font-size: 42px;
+    line-height: 110%;
+  }
+
+  .article__artist-name {
+    font-size: 18px;
+  }
+
+  .article__city-description {
+    font-size: 16px;
+  }
 }

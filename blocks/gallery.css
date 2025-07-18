@@ -9,3 +9,12 @@
 .gallery__image {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    max-width: 720px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
