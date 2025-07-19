@@ -9,3 +9,13 @@
 .gallery__image {
   width: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .gallery {
+    max-width: 288px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    gap: 16px;
+  }
+}
