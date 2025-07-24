@@ -10,7 +10,7 @@
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
-  margin: 0 0 34px 0;
+  max-width: 720px;
 }
 
 .lead__paragraph {
